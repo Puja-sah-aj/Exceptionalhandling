@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Crud/src/main/webapp/employeeForm.jsp&apos; to &apos;addEmployee.jsp&apos;" description="Rename resource &apos;employeeForm.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/employeeForm.jsp" name="addEmployee.jsp" stamp="1726124322629" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+127.0.0.1 - - [22/Sep/2024:20:04:44 +0545] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:20:04:45 +0545] "GET /Myjspproject/ HTTP/1.1" 200 443
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:20:04:45 +0545] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [22/Sep/2024:20:04:51 +0545] "GET /Myjspproject/Output.jsp?name1++placeholder%3D=puja+kumari+sah HTTP/1.1" 200 153

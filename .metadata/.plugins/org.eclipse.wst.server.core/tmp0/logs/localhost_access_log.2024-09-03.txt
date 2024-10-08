@@ -1,0 +1,14 @@
+127.0.0.1 - - [03/Sep/2024:14:31:10 +0545] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:14:31:10 +0545] "GET /ServletProject/ HTTP/1.1" 200 2178
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:14:31:10 +0545] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:14:31:30 +0545] "POST /ServletProject/submit HTTP/1.1" 200 26
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:14:33:02 +0545] "POST /ServletProject/submit HTTP/1.1" 200 26
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:14:34:59 +0545] "POST /ServletProject/submit HTTP/1.1" 200 26
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:14:36:09 +0545] "POST /ServletProject/submit HTTP/1.1" 200 26
+127.0.0.1 - - [03/Sep/2024:15:14:57 +0545] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:15:14:57 +0545] "GET /ServletProject/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:15:15:28 +0545] "POST /ServletProject/submit HTTP/1.1" 200 1965
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:15:15:37 +0545] "POST /ServletProject/login HTTP/1.1" 404 775
+127.0.0.1 - - [03/Sep/2024:15:16:47 +0545] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:15:17:15 +0545] "POST /ServletProject/submit HTTP/1.1" 200 1965
+0:0:0:0:0:0:0:1 - - [03/Sep/2024:15:17:23 +0545] "POST /ServletProject/login HTTP/1.1" 200 17

@@ -1,0 +1,8 @@
+127.0.0.1 - - [04/Sep/2024:22:27:28 +0545] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Sep/2024:22:27:29 +0545] "GET /ServletProject2/WEB-INF/classes/doa/text/Connectiondoa.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [04/Sep/2024:22:27:29 +0545] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [04/Sep/2024:23:21:07 +0545] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Sep/2024:23:21:07 +0545] "GET /ServletProject2/WEB-INF/web.xml HTTP/1.1" 404 682
+127.0.0.1 - - [04/Sep/2024:23:29:58 +0545] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Sep/2024:23:29:58 +0545] "GET /ServletProject2/ HTTP/1.1" 200 1704
+0:0:0:0:0:0:0:1 - - [04/Sep/2024:23:31:11 +0545] "POST /ServletProject2/submit HTTP/1.1" 200 26

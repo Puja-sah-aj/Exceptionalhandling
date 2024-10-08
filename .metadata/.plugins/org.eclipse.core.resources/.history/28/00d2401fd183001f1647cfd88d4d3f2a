@@ -1,0 +1,26 @@
+package com.main.translator;
+
+import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.main.dto.UserRequest;
+
+import com.main.entity.User;
+
+@Component
+public class UserTranslator {
+	
+	
+	private ObjectMapper mapper;
+	
+	public User requestentity(UserRequest request) {
+		return mapper.convertValue(request, User.class);
+		
+	}
+	
+//	public UserResponse responseentity(String message) {
+//		return mapper.convertValue(message, UserResponse.class);
+//	}
+
+}
+

@@ -1,0 +1,43 @@
+package com.main.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.main.dto.UserRequest;
+import com.main.dto.UserResponse;
+import com.main.entity.User;
+import com.main.repository.UserRepository;
+import com.main.translator.UserTranslator;
+
+public class Service {
+	
+	
+	@Autowired
+	private UserTranslator translator;
+	
+	
+	@Autowired
+	private UserRepository repository;
+	
+	
+	public String login(UserRequest request) {
+		Optional<User> user = repository.findbyusername(request.getUsername());
+	
+		if(user.isPresent()) {
+			User ur = user.get();
+			if(ur.getPassword().equals(request.getPassword())) {
+				return "sucessfully login";
+			}
+			else {
+				return "login not sucessfully";
+			}
+		}
+		else {
+			return "user not found";
+		}
+		
+		
+	}
+
+}
